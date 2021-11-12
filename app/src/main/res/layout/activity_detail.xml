@@ -28,11 +28,9 @@
 
     <View
         android:id="@+id/nama_bg"
-        android:layout_width="350dp"
+        android:layout_width="330dp"
         android:layout_height="70dp"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:background="@drawable/menu_bg"
         app:layout_constraintEnd_toEndOf="@id/detail_bg"
         app:layout_constraintStart_toStartOf="@id/detail_bg"
@@ -143,7 +141,7 @@
 
     <View
         android:id="@+id/deskripsi_bg"
-        android:layout_width="350dp"
+        android:layout_width="330dp"
         android:layout_height="220dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/menu_bg"
@@ -173,7 +171,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:fontFamily="monospace"
-        android:text="Bahan yang digunkan kain kulit\nsintetis dan kain mesh berpori\n(lembut, nyaman,dan tidak panas)"
+        android:text="Bahan yang digunkan kain kulit\nsintetis dan kain mesh berpori\n(lembut, nyaman, dan tidak panas)"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="16sp"
@@ -229,14 +227,15 @@
 
     <Button
         android:id="@+id/btn_tambah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:textSize="18sp"
         android:textColor="@color/white"
         android:textStyle="bold"
         android:background="@drawable/btn_bg"
-        android:text="Tambahkan Ke keranjang"
+        android:text="Tambahkan Ke Keranjang"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_kurang"/>

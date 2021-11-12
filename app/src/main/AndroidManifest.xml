@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasMDPL">
         <activity
+            android:name=".Pembayaran"
+            android:exported="true" />
+        <activity
             android:name=".Detail"
             android:exported="true" />
         <activity
